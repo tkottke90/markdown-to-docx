@@ -1,6 +1,6 @@
 {
   "name": "export-docx",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,5 +12,8 @@
   "dependencies": {
     "@actions/core": "^1.2.4",
     "@actions/github": "^2.2.0"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.0"
   }
 }
