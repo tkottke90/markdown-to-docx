@@ -1,0 +1,13 @@
+name: "README to DOCX"
+description: 'Convert README.md to *.docx'
+inputs:
+  output-name:
+    description: 'Name of output file'
+    required: false
+    default: 'readme.docx'
+outputs:
+  file:
+    description: 'file generated'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
