@@ -15,6 +15,6 @@
     "@actions/github": "^2.2.0"
   },
   "devDependencies": {
-    "standard-version": "^8.0.0"
+    "standard-version": "^8.0.1"
   }
 }
